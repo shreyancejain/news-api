@@ -31,7 +31,7 @@ app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocs));
  * @swagger
  * /article:
  *   get:
- *     description: Get all articles
+ *     description: Get articles based on query parameters
  *     parameters:
  *       - in: query
  *         name: limit
