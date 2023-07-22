@@ -12,7 +12,7 @@ const logError = (err, res) => {
 };
 
 const app = express();
-const cache = new LRUCache(2); // Initialized cache with max 10 entries
+const cache = new LRUCache(10); // Initialized cache with max 10 entries
 
 const swaggerOptions = {
   swaggerDefinition: {
